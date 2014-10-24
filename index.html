@@ -1,0 +1,23 @@
+<html>
+<head>
+    <title>הספר שלי</title>
+    <script src="JavaScript1.js"></script>
+    <link href="StyleSheet1.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <h1 class="title">My bookshelf</h1>
+    <h2>Enter your book</h2>
+    <div>
+        <input type="text" placeholder="Book name" id="bookName" />
+        <input type="text" placeholder="Author name" id="authorName" />
+        <input type="text" placeholder="Give a score(1-10)" id="score" />
+        <button onclick="addBook()">Add this book</button>
+        <button onclick="reset()">Reset all fields</button>
+    </div>
+
+    <h3 class="theBooks">Your Books:</h3>
+    <ul id="bookList"></ul>
+    <!--<button class="theResetList" onclick="resetList()">reset list</button>-->
+</body>
+</html>
