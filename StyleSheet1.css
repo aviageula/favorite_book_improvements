@@ -1,0 +1,84 @@
+body
+{
+    background-color:gray;
+}
+.title
+{
+    text-align:center;
+    color:aqua;
+    font-size:50px;
+}
+.theBooks
+{
+    padding-left:20%;
+}
+.theResetList
+{
+    margin-left:85%;
+    margin-bottom:2%;
+    height:0.6cm;
+    width:2cm;
+    background-color:firebrick;
+}
+ul#bookList li div
+{
+	display: inline-block;
+}
+
+.left 
+{
+	float: left;
+    text-align: center;
+    width: 31%;
+    padding-top:8px;
+}
+
+.right 
+{
+	float: left;
+    text-align: center;
+    width: 31%;
+    padding-top:8px;
+    border-left:1px solid black;
+
+}
+
+.center 
+{
+    float: left;
+	width: 31%;
+	text-align: center;
+    padding-top:8px;
+    border-left:1px solid black;
+}
+
+ul 
+{
+	list-style-type: none;
+	width: 500px;
+    padding-left:6%;
+}
+
+ul#bookList li
+{
+	border: 1px solid black;
+	padding: 10px;
+    background-color:purple;
+    margin-left:-40;
+}
+.validition
+{
+     border:1px solid red;
+}
+.divDeleteClass
+{
+    width:5%;
+    line-height:50%;
+    color:red;
+    font-style:italic;
+    font-size:40px;
+    background-color:black;
+    text-align:center;
+    height:0.8cm;
+    cursor:pointer;
+}
