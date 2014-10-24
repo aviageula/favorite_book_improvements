@@ -6,6 +6,7 @@ body
 {
     text-align:center;
     color:aqua;
+    text-shadow:5px 5px 10px aqua;
     font-size:50px;
 }
 .theBooks
