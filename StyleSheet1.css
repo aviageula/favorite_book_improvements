@@ -1,6 +1,16 @@
 body
 {
     background-color:gray;
+   
+}
+.image
+{
+    width:20%;
+	height:500px;
+    position:absolute;
+    right:0cm;
+    background-image:url('images/bookimage.jpg');
+    background-repeat:no-repeat;
 }
 .title
 {
