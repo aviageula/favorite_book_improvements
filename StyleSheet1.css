@@ -1,7 +1,17 @@
 body
 {
-    background-color:gray;
+    background-color:#8b8989;
    
+}
+.image
+{
+    width:20%;
+	height:500px;
+    position:absolute;
+    top:1cm;
+    right:-3cm;
+    background-image:url('images/tolaat.jpg');
+    background-repeat:no-repeat;
 }
 .title
 {
@@ -31,7 +41,7 @@ ul#bookList li div
 {
 	float: left;
     text-align: center;
-    width: 31%;
+    width: 28%;
     padding-top:8px;
 }
 
@@ -39,7 +49,7 @@ ul#bookList li div
 {
 	float: left;
     text-align: center;
-    width: 31%;
+    width: 28%;
     padding-top:8px;
     border-left:1px solid black;
 
@@ -48,7 +58,7 @@ ul#bookList li div
 .center 
 {
     float: left;
-	width: 31%;
+	width: 28%;
 	text-align: center;
     padding-top:8px;
     border-left:1px solid black;
@@ -83,4 +93,59 @@ ul#bookList li
     text-align:center;
     height:0.8cm;
     cursor:pointer;
+}
+.editClass 
+{
+    width: 5%;
+    line-height: 50%;
+    color: red;
+    font-style: italic;
+    font-size: 20px;
+    background-color: black;
+    text-align: center;
+    height: 1cm;
+    cursor: pointer;
+    margin-right:0.2cm;
+}
+.newInputBookClass
+{
+    width:2cm;
+}
+.editBookClass
+{
+    display: block !important;
+    width: 15%;
+    color: red;
+    font-style: italic;
+    font-size: 13px;
+    background-color: black;
+    text-align: center;
+    height: 0.4cm;
+    cursor: pointer;
+        margin-left: -7%;
+
+}
+.editAuthorClass
+{
+    display: block !important;
+    width: 15%;
+    color: red;
+    font-style: italic;
+    font-size: 13px;
+    background-color: black;
+    text-align: center;
+    height: 0.4cm;
+    cursor: pointer;
+}
+.editScoreClass
+{
+    display: block !important;
+    width: 15%;
+    color: red;
+    font-style: italic;
+    font-size: 13px;
+    background-color: black;
+    text-align: center;
+    height: 0.4cm;
+    cursor: pointer;
 }
